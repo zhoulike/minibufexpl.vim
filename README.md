@@ -1,3 +1,15 @@
+#My work
+[@fholgado's repo][] is not fully compitable with [powerline][] because of the following setting:
+> let g:miniBufExplForceSyntaxEnable = 1
+
+So I made patches to them respectively to address the color lose problem([Issue#230][], [Issue#668][], etc.). 
+
+If you has the same or similar problem. You can try [patched powerline][] and this repo.
+[powerline]: https://github.com/Lokaltog/powerline
+[Issue#230]: https://github.com/Lokaltog/powerline/issues/230
+[Issue#668]: https://github.com/Lokaltog/powerline/issues/668
+[patched powerline]: https://github.com/zhoulike/powerline
+
 # MiniBufExpl
 
 This is a fork of [Bindu Wavell][]'s [MiniBufExpl][] plugin for [Vim][].
